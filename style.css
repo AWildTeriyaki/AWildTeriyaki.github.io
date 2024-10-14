@@ -133,7 +133,7 @@ html, body {
     background-size: cover;
     background-position: bottom;
     width: 100vw;
-    height: max(20vmin, 500px);
+    height: max(20vmin, 300px);
     line-height: 150%;
     opacity: 0.95;
 
@@ -149,12 +149,13 @@ html, body {
 }
 
 .menu {
-    background-image: url("https://images.pexels.com/photos/1049626/pexels-photo-1049626.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("assets/menu_1.jpeg");
     background-size: cover;
     background-attachment: fixed;
     width: 100vw;
-    height: 600px;
+    height: max(500px, 50vmin);
     text-align: center;
+    opacity: 0.95;
 
     display: flex;
     flex-direction: column;
@@ -164,10 +165,10 @@ html, body {
 
 .menu h1 {
     margin: 0;
-    color: black;
-    font-family: "Poppins", Arial, Helvetica, sans-serif;
-    font-size: 4vmin;
-    font-weight: 300;
+    color: white;
+    font-family: "Satisfy", "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 6vmin;
+    font-weight: normal;
 }
 
 .button-row {
@@ -180,7 +181,7 @@ html, body {
 .button-row button {
     background-color: rgb(15, 13, 9);
     opacity: 0.8;
-    border: 3px solid black;
+    border: 4px solid white;
     margin: 10px 20px;
     padding: 4vmin 8vmin;
     transition-duration: 0.2s;
