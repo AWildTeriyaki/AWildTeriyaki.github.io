@@ -118,8 +118,12 @@ html, body {
 }
 
 .button:hover {
-    background-color: black;
-    opacity: 0.8;
+    background-color: #566d85;
+    opacity: 0.9;
+}
+
+#facts-button:hover {
+    background-color: rgb(19, 83, 19);
 }
 
 
@@ -153,6 +157,47 @@ html, body {
 .large-image-text {
     font-family: "Figtree", Arial, sans-serif;
     color: white;
+    background-color: #415264;
+    width: 100vw;
+    height: max(50vmin, 400px);
+    text-align: center;
+}
+
+.large-image-text p, h1, h2 {
+    margin: 0;
+}
+
+.large-image-text h1 {
+    color: goldenrod;
+    font-weight: 500;
+    font-size: 5vmin;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.large-image-text h2 {
+    font-size: 4vmin;
+}
+
+.facts {
+    display: flex;
+    padding: 20px;
+}
+
+.facts p {
+    font-size: 3vmin;
+    flex: 33%;
+}
+
+#reservations {
+    background-image: url("https://images.pexels.com/photos/1346132/pexels-photo-1346132.jpeg");
+    background-size: cover;
+    background-position: center;
+    
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .menu {
@@ -181,7 +226,7 @@ html, body {
 
 .button-row {
     height: 50%;
-    width: 90%;
+    width: 100%;
     display: block;
     margin-top: 30px;
 }
